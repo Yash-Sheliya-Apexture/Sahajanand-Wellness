@@ -1,0 +1,70 @@
+/* public/style/font.css */
+
+@theme {
+  --font-Jost: "Jost", "Poppins";
+  /* --font-Lato: "Lato", "Poppins"; */
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('/fonts/Jost-Thin.ttf') format('truetype');
+    font-weight: 100; /* or Thin */
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Jost';
+    src: url('/fonts/Jost-ExtraLight.ttf') format('truetype');
+    font-weight: 200; /* or ExtraLight */
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Jost';
+    src: url('/fonts/Jost-Light.ttf') format('truetype');
+    font-weight: 300; /* or Light */
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Jost';
+    src: url('/fonts/Jost-Regular.ttf') format('truetype');
+    font-weight: 400; /* or Regular */
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Jost';
+    src: url('/fonts/Jost-SemiBold.ttf') format('truetype');
+    font-weight: 600; /* or SemiBold */
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Jost';
+    src: url('/fonts/Jost-Bold.ttf') format('truetype');
+    font-weight: 700; /* or Bold */
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Jost';
+    src: url('/fonts/Jost-ExtraBold.ttf') format('truetype');
+    font-weight: 800; /* or ExtraBold */
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Jost';
+    src: url('/fonts/Jost-Black.ttf') format('truetype');
+    font-weight: 900; /* or Black */
+    font-style: normal;
+    font-display: swap;
+  }

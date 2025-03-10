@@ -1,0 +1,126 @@
+/* styles.css */
+
+/* Override default DayPicker styles for orange theme */
+.rdp {
+  --rdp-accent-color: #ff7043;
+  /* Orange accent color */
+  --rdp-background-color: #fff;
+  /* White background */
+  --rdp-color: #333;
+  /* Dark text color */
+  --rdp-outline-width: 2px;
+  /* Increased outline width */
+  --rdp-cell-size: 40px;
+}
+
+/* Style the caption (month and year) */
+.rdp-caption {
+  color: #ff7043;
+  /* Orange caption color */
+}
+
+/* Style the navigation buttons */
+.rdp-nav_button {
+  color: #ff7043;
+  /* Orange navigation button color */
+}
+
+.rdp-button:hover:not([disabled]) {
+  background-color: #ffe0b2;
+  /* Light orange hover color */
+}
+
+/* Style the selected day */
+.rdp-day_selected {
+  background-color: #ff7043;
+  /* Orange selected day background */
+  color: white;
+  /* White text on selected day */
+}
+
+.rdp-day_selected:hover {
+  background-color: #e64a19;
+  /* Darker orange on hover */
+}
+
+
+/* Style the today day */
+.rdp-day_today {
+  color: #ff7043;
+  /* Orange for today's date */
+  font-weight: bold;
+}
+
+/* Style the disabled days */
+.rdp-day_disabled {
+  color: #ccc;
+  /* Light gray for disabled days */
+}
+
+/* Custom Swiper Pagination bullet Style */
+.custom-bullet {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-bullet.swiper-pagination-bullet-active {
+  background-color: #ff5700;
+}
+
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 20px; /* Adjust as needed */
+  color: white; /* Change color */
+  font-weight: bold;
+}
+
+
+/* styles/ClientCarousel.css or globals.css */
+
+.client-carousel-track {
+  transition: transform 0.5s ease-in-out; /* Custom animation */
+}
+
+/* Hide scrollbar */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+
+
+
+/* Global styles (in your main CSS file or a global.css file) */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(245, 158, 106, 0.5); /* Color of the tracking area */
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3); /* Color of the scroll thumb */
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5); /* Color of the scroll thumb on hover */
+}
+
+/* Hide the up and down buttons */
+.custom-scrollbar::-webkit-scrollbar-button {
+  display: none;
+}
